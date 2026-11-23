@@ -1,0 +1,20 @@
+{
+  "name": "weproxy",
+  "version": "1.0.0",
+  "description": "WeProxy Premium Rotating Residential proxies as MCP tools: rotating/sticky proxies with country & state targeting, quota, whitelist and usage.",
+  "author": {
+    "name": "WeProxy",
+    "url": "https://weproxy.io"
+  },
+  "homepage": "https://mcp.weproxy.io",
+  "keywords": ["proxy", "residential-proxy", "rotating-proxy", "scraping", "mcp"],
+  "userConfig": {
+    "weproxy_key": {
+      "type": "string",
+      "title": "WeProxy API key",
+      "description": "Your order's API key (starts with wpk_). Create it in the WeProxy client area: your order → \"Yapay Zeka (MCP) / API\" tab.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}

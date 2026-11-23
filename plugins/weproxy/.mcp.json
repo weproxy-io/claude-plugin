@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weproxy": {
+      "type": "http",
+      "url": "https://mcp.weproxy.io/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.weproxy_key}"
+      }
+    }
+  }
+}

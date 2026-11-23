@@ -1,0 +1,15 @@
+{
+  "name": "weproxy",
+  "description": "WeProxy plugins for Claude Code: rotating residential proxies for scraping, available as MCP tools.",
+  "owner": {
+    "name": "WeProxy",
+    "url": "https://weproxy.io"
+  },
+  "plugins": [
+    {
+      "name": "weproxy",
+      "source": "./plugins/weproxy",
+      "description": "Premium Rotating Residential proxies in Claude Code: generate country/state-targeted rotating or sticky proxies, check quota, manage IP whitelist."
+    }
+  ]
+}
